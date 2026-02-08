@@ -69,7 +69,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
             <template
-                x-for="image in ['/assets/grafisch/3D producten/mandy_producten.png', '/assets/grafisch/3D producten/verpakking.jpg']">
+                x-for="image in ['../../../assets/grafisch/3D producten/mandy_producten.png', '../../../assets/grafisch/3D producten/verpakking.jpg']">
                 <div class="aspect-video bg-gray-100 border border-gray-200 rounded-lg overflow-hidden cursor-pointer group"
                     @click="imgSrc = image; open = true">
                     <img :src="image"
@@ -100,12 +100,7 @@
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
             <div class="text-sm text-gray-400">
                 &copy; 2026 Mandy Meesters. 
-            </div>
-            
-            <div class="flex items-center gap-2">
-                <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                <span class="text-xs text-gray-500 uppercase tracking-widest">Available for work</span>
-            </div>
+            </div>  
         </div>
     </footer>
 
